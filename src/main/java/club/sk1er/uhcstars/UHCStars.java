@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = "Sk1er-UHCstars", name = "UHC Stars", version = "2.0")
+@Mod(modid = "Sk1er-UHCstars", name = "UHC Stars", version = "2.1")
 public class UHCStars {
 
   @EventHandler
