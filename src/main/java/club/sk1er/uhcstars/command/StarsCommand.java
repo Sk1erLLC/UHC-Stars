@@ -52,7 +52,7 @@ public class StarsCommand extends CommandBase {
                     EnumChatFormatting.BLUE
                         + object.optJSONObject("player").optString("displayname")
                         + " is a "
-                        + getStars(score)
+                        + Math.min(getStars(score), 15)
                         + " star!");
               }
             } catch (Exception e) {
