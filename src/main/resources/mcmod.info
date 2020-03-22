@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "Sk1er-UHCstars",
+    "name": "UHC Stars",
+    "description": "Get the star number of a player while in a UHC game.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Sk1er LLC"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
