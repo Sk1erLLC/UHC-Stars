@@ -8,12 +8,12 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 
-@Mod(modid = "Sk1er-UHCstars", name = "UHC Stars", version = "2.1")
+@Mod(modid = "Sk1er-UHCstars", name = "UHC Stars", version = "2.2")
 public class UHCStars {
 
-  @EventHandler
-  public void init(FMLInitializationEvent event) {
-    ModCoreInstaller.initializeModCore(Minecraft.getMinecraft().mcDataDir);
-    ClientCommandHandler.instance.registerCommand(new StarsCommand());
-  }
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+        ModCoreInstaller.initializeModCore(Minecraft.getMinecraft().mcDataDir);
+        ClientCommandHandler.instance.registerCommand(new StarsCommand());
+    }
 }
